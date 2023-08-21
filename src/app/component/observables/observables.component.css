@@ -1,0 +1,93 @@
+body{
+    color: aliceblue;
+}
+
+.weather-details{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/4515469.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    color: rgb(218, 226, 234);
+    font-size: large;
+}
+
+.sidebar{
+    padding-left: 2%; 
+    padding-right: 2%; 
+    /* border: 1px solid rgb(214, 23, 23); */
+    box-shadow: 0 0 25px 8px rgb(203, 203, 203);
+    height: 100vh;
+    width: 30%;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    
+}
+
+
+.main{
+    /* border: 1px solid rgb(23, 214, 36); */
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+
+}   
+
+.main-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+span{
+    margin-left: 10%;
+
+}
+.main-in > span{
+    font-size: x-large;
+    font-weight: 700;
+    color: aqua;
+    text-decoration-color: aqua;
+}
+
+.searchbar-area{
+    height: 50vh;
+}
+
+.details-area{
+    /* padding-left: 10px; 
+    padding-right: 10px;  */
+    height: 50vh;
+}
+
+.hrtag{
+    /* padding-left: 10px; 
+    padding-right: 10px;  */
+    height: 0vh;
+}
+
+input{
+    margin-top: 5%;
+    height: 10%;
+    width: 60%;
+}
+button{
+    margin-top: 5%;
+    width: 30%;
+    height: 12%;
+}
+
+
+.sapn-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

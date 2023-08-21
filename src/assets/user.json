@@ -1,0 +1,19 @@
+
+    [
+        {
+            "name":"mahesh",
+            "age":26,
+            "password": 123456
+        },
+        {
+            "name":"kumar",
+            "age":25,
+            "password": 123457
+        },
+        {
+            "name":"nag",
+            "age":24,
+            "password": 123458
+        }
+
+    ]

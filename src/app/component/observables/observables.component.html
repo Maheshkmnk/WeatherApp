@@ -1,0 +1,38 @@
+<div class=" weather-details" *ngIf="weatherData">
+    <div class="main">
+        <div class="main-in">
+            <span>{{weatherData.main.temp}} C</span>
+            <span>{{weatherData.name}}</span>
+            <span>{{weatherData.weather[0].main}}</span>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="searchbar-area">
+            <input type="text" [(ngModel)]="city" placeholder="enter city">
+            <button class="btn btn-primary" (click)="fetchWeather()">Search</button>
+        </div>
+        <hr class="hrtag" />
+        <div class="details-area">
+            <h3>Weather Details</h3>
+            <div>
+                <div class="sapn-data">
+                    <span>Humidity</span>
+                    <span>{{weatherData.main.humidity}}</span>
+                </div>
+                <div class="sapn-data">
+                    <span>Wind</span>
+                    <span>{{weatherData.wind.speed}}</span>
+                </div>
+                <div class="sapn-data">
+                    <span>Latitude</span>
+                    <span>{{weatherData.coord.lat}}</span>
+                </div>
+                <div class="sapn-data">
+                    <span>Longitude</span>
+                    <span>{{weatherData.coord.lon}}</span>
+                </div>
+            </div>
+        </div>
+        <hr class="hrtag" />
+    </div>
+</div>
